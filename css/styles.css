@@ -1,0 +1,39 @@
+body{
+    background-color: #FBEEE6 ;
+}
+.container{
+   
+    text-align: center;
+}
+
+
+h1{
+   font-size: 80px;
+   font-family: "Kanit", sans-serif;
+   border-bottom: 3px solid #3498db;
+   color: #2471A3; 
+}
+p{
+    margin-top: 80px;
+    font-family: "Kanit", sans-serif;
+    color:  #7FB3D5 ;
+}
+
+#contadorVisitas{
+    font-size: 30px;
+    color:  #2471A3;
+}
+
+#btnReestablecer{
+    margin-top: 30px;
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    font-family: "Kanit", sans-serif;
+    background-color: #21618C ;
+    transition: transform 0.2s ease-in-out;
+}
+
+#btnReestablecer:hover {
+    transform: translateY(-10px); /* Eleva ligeramente el botón al pasar el ratón sobre él */
+}
